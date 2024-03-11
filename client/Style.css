@@ -1,0 +1,886 @@
+* {
+    margin: 0;
+    padding: 0px;
+}
+
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.767) !important;
+}
+
+.car-img {
+    margin-top: -600px !important;
+    
+   
+}
+
+.carousel-inner {
+    position: relative;
+}
+
+.content {
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    padding: 20px;
+    top: 20%;
+    width: 100%;
+}
+
+
+.text-container {
+    opacity: 0;
+    animation: fadeUpDown 2s infinite alternate-reverse;
+}
+
+@keyframes fadeUpDown {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-up {
+    animation-delay: 0.4s;
+    /* Delay the animation */
+}
+
+.fade-up-text {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 74px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: orange;
+    margin-top: 60px;
+    background-color: rgba(0, 0, 0, 0.089);
+}
+
+.hero-btn {
+    font-weight: 600;
+    margin-top: 20px;
+    font-size: 16px;
+    padding: 10px;
+    letter-spacing: 1px;
+
+}
+
+.hero-btn:hover {
+    background: darkblue !important;
+    transform: translate(-50% -50%);
+    border-radius: 10px !important;
+}
+
+/* detail-section */
+.detail-section{
+    position: relative;
+    margin-top: -150px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    padding: 20px;
+    background: aliceblue;
+    box-shadow: 0px 0px 20px 5px  black;
+}
+.inner-content{
+    background: #fffafa;
+    text-align: center;
+    padding: 20px;
+    margin: 8px;
+    box-shadow: 0px 0px 22px 5px  rgb(255, 184, 184);
+}
+
+.data-des{
+    border-left: 1px solid skyblue;
+}
+/* hero-section */
+.hero-section {
+    background-color: rgb(2, 2, 68);
+    box-shadow: 0px 0px 10px 3px skyblue;
+    color: white;
+}
+
+.hrline {
+    box-shadow: 0px 0px 10px 2px skyblue;
+}
+
+.carousel-inner {
+    background-color: rgba(0, 0, 0, 0.507);
+    box-shadow: 0px 0px 10px 2px white;
+}
+
+.hero-truck {
+    height: 650px;
+}
+/* happy clients */
+.happy-client{
+    background: rgba(255, 127, 80, 0.123);
+}
+.clients{
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding-top: 30px;
+}
+
+
+
+
+
+
+
+/* why us section */
+.whyus {
+    background-image: url(https://img.freepik.com/free-photo/busy-shipping-port-with-containers-trade-action_91128-4581.jpg?w=900&t=st=1707727499~exp=1707728099~hmac=4170f4a6d8c55412297b01c6eae97926bb22703b27de30d72cd1e4cfc1fe45c6);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    position: relative !important;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.whyus-section {
+    background-color: rgba(0, 0, 0, 0.582);
+    width: 100%;
+
+}
+
+
+
+/* typewriter effect */
+.typewriter {
+    font-size: 44px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    color: orange;
+}
+
+.typeheading {
+    font-size: 44px;
+}
+
+/* logi_section */
+
+
+.para {
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-top: 220px;
+}
+
+.logi_section2 {
+    background-image: url(https://images.pexels.com/photos/3057960/pexels-photo-3057960.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    margin-top: 50px;
+}
+
+.para2 {
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-size: 3.5rem;
+    color: azure;
+    margin-top: 220px;
+}
+
+.item_icons {
+    height: 60px;
+    border: 1px solid skyblue;
+    border-radius: 50px;
+    padding: 4px;
+}
+
+.item_icons:hover {
+    animation: icons linear 1.2s;
+}
+
+@keyframes icons {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+/* footersection css */
+.footer_section {
+    background-color: rgba(0, 0, 0, 0.966);
+}
+
+.footer_items {
+    list-style: none;
+}
+
+
+.footer_items>li>a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.footer_items>:hover {
+    color: blue;
+    padding-left: 4px;
+    transform: translatex(-50% -50%);
+    transition: .2s;
+}
+
+.hrline {
+    color: skyblue;
+    font-size: 20px;
+}
+
+.footer_items>li>a:hover {
+    color: rgb(135, 135, 255);
+}
+
+.phone-deal-f {
+    gap: 10px;
+    margin-bottom: 8px;
+}
+
+.footer-icon {
+    font-size: 18px;
+    margin-top: -12px;
+}
+
+.social_icons>a:hover {
+    transform: scale(1.1);
+}
+
+
+/* conditions */
+.conditions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: aliceblue;
+
+}
+
+.conditions_dis:hover {
+    color: blueviolet;
+    cursor: pointer;
+}
+
+/* about section */
+.about-content{
+    display: flex;
+    justify-content: space-between;
+}
+.about-head{
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.about-subpara{
+    text-align: justify;
+}
+.about-sub-image{
+    margin-left: 30px;
+}
+.about-sub-image>img{
+  
+    box-shadow: 0px 0px 10px 2px rgb(72, 191, 238);
+    padding: 14px;
+    border-radius: 50px;
+}
+.about_section {
+    background-image: url(https://img.freepik.com/free-photo/many-transport-trucks-parked-service-station-sunset-ai-generative_123827-23416.jpg?w=740&t=st=1707890844~exp=1707891444~hmac=b30b7f8cdb7eef265f5275ec527651816c1e2753fdec2967e95aec59aa395a0a);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    position: relative;
+
+}
+
+.about-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    background-color: rgba(0, 0, 0, 0.507);
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.about_dis{
+    background-color: rgba(160, 163, 167, 0.336);
+}
+.about_dis>h3 {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-family: TTNormsPro-Bold, 'Helvetica Neue', Arial, sans-serif;
+}
+.transport-mode{
+    display: flex;
+   justify-content: space-between;
+    
+}
+
+
+.about-heading {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 26px;
+    font-weight: 600;
+    font-family: TTNormsPro-Bold, 'Helvetica Neue', Arial, sans-serif;
+}
+
+.about-para {
+    letter-spacing: 1px;
+    line-height: 1.5rem;
+    text-align: left;
+}
+
+.about-image {
+    box-shadow: 0px 0px 12px 6px rgba(15, 152, 206, 0.623);
+    opacity: 0.4;
+}
+.about-section {
+    background-color: rgb(2, 2, 29);
+    padding: 20px;
+    color: white;
+}
+.about-company{
+    display: flex;
+   justify-content: space-between;
+}
+.about-section-des{
+    display: flex;
+   gap:20px
+}
+/* services section */
+.services{
+    border: none !important;
+}
+.our-services{
+    background-image: url('./images/airplane.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    position: relative;
+}
+.our-services-section{
+    display: flex;
+    gap: 20px;
+   align-items: center;
+   justify-content: center;
+
+}
+.our-services-content{
+    width: 400px;
+    height: 400px;
+    background: whitesmoke;
+    text-align: center;
+    padding: 12px;
+    margin: 8px;
+    
+}
+.our-services-content:hover{
+    box-shadow: 0px 0px 22px 5px  rgb(115, 115, 187);
+}
+.services {
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.services_section {
+    background-image: url(https://img.freepik.com/free-photo/business-people-casual-meeting_53876-101882.jpg?w=740&t=st=1707891032~exp=1707891632~hmac=b432a8a2f5dd499bbbc0153ea850b651e784b8027b1aea9227467605acbca147);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    position: relative;
+}
+
+.services-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    background-color: rgba(0, 0, 0, 0.507);
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.service-head {
+    width: 100%;
+    font-size: 50px;
+    line-height: 74px;
+    letter-spacing: -1px;
+    font-weight: 700;
+    font-family: TTNormsPro-Bold, 'Helvetica Neue', Arial, sans-serif;
+}
+
+.linee {
+    background-color: #fffafa;
+    box-shadow: 0px 0px 10px 2px skyblue;
+    width: 250px;
+    height: 0.5px;
+}
+
+.para-section {
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+
+.service-img {
+    background: rgba(0, 0, 0, 0.45);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px 2px skyblue;
+    padding: 2px;
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.services-offer {
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.services-offer-para {
+    font-size: medium;
+    font-weight: 400;
+}
+
+.serv-btn {
+    color: white;
+    background: blue;
+    font-weight: 600;
+}
+
+.serv-btn-a {
+    text-decoration: none;
+
+    color: white;
+}
+
+.serv-btn:hover {
+    background: darkmagenta;
+    cursor: pointer !important;
+}
+
+/* contact sections */
+.home-contact{
+    background: rgb(2, 2, 36);
+    color: white;
+}
+.home-contact-details {
+    display: flex;
+
+}
+
+.contact_section {
+    background-image: url(https://img.freepik.com/free-photo/high-angle-woman-holding-smartphone_23-2148793487.jpg?w=740&t=st=1707891681~exp=1707892281~hmac=d362e6aad4d721bfc365673476f35bb4a7acead2a93e620d45401551e83ab9be);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    position: relative;
+}
+
+.contact-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    background-color: rgba(0, 0, 0, 0.507);
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.contactus-section{
+    background: rgb(0, 0, 29);
+    color: aliceblue;
+}
+
+.contact-dis {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(20, 20, 20, 0.1);
+}
+
+label,
+input,
+textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    resize: vertical;
+}
+
+
+
+
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.card-dis {
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border-radius: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+
+    box-shadow: 0px 0px 20px 2px skyblue;
+}
+
+.card-dis:hover {
+    box-shadow: 0px 0px 20px 2px blue;
+    background: red;
+    padding-left: 12px;
+    transform: translatex(-50% -50%);
+    transition: .2s;
+}
+
+.card-img>img {
+    padding: 20px;
+    background-color: #ccc;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+.text {
+    box-shadow: 0px 0px 6px 1px skyblue;
+    margin-top: 2px;
+    letter-spacing: 1px;
+}
+
+/* careers section */
+.career_section {
+    background-image: url(https://img.freepik.com/free-photo/human-resources-concept-with-hand_23-2150389117.jpg?w=740&t=st=1707904203~exp=1707904803~hmac=07130d96744b868a76e0c93cf1f1a6a78e85eb7ca8a0148f9dae44f040339a8c);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    position: relative;
+
+}
+
+.career-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    background-color: rgba(0, 0, 0, 0.507);
+    padding: 20px;
+}
+
+.career-section {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.open-jobs {
+    display: flex;
+    margin-top: 32px;
+   
+}
+
+.job1 {
+    background: rgba(255, 69, 69, 0.774);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 30px;
+    border: solid 1px blue;
+    height: 200px;
+    width: 400px;
+    margin: 10px;
+}
+.job2 {
+    background: rgba(255, 69, 69, 0.548);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 30px;
+    border: solid 1px blue;
+    height: 200px;
+    width: 400px;
+    margin: 10px;
+}
+.job3 {
+    background: rgba(255, 69, 69, 0.445);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 30px;
+    border: solid 1px blue;
+    height: 200px;
+    width: 400px;
+    margin: 10px;
+}
+.job4 {
+    background: rgba(255, 69, 69, 0.26);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 30px;
+    border: solid 1px blue;
+    width: 400px;
+    height: 200px;
+    margin: 10px;
+}
+
+.shiphaul-section {
+    background-image: url(https://img.freepik.com/free-photo/truck-with-trailer-road_1340-32492.jpg?t=st=1707995006~exp=1707998606~hmac=e5a0fb0bf68118abdf7b97432de58ec2b1dff417512f774a27f04cc6ae1a15de&w=740);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    position: relative;
+}
+
+.shiphaul-overlay {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    width: 60%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    background-color: rgba(0, 0, 0, 0.507);
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.shiphaul-overlay>h1 {
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#videoPlayer{
+    display: none;
+    margin-left: 25%;
+    margin-top: 14px;
+}
+
+@media (max-width: 768px) {
+    .small-navbar {
+       display: none !important;
+    }
+    .navbar{
+        margin-top: 0px;
+        background: black !important;
+        padding: 12px;
+    }
+    .navbar-brand{
+        display: none;
+    }
+    .car-img {
+        margin-top: 20px !important;
+        height: 300px !important;
+    }
+
+    .content {
+        padding: 10px;
+       margin-top: -50px;
+       width: 100%;
+    }
+
+    .fade-text {
+        font-size: 12px !important;
+    }
+
+    .fade-up-text {
+        margin-top: 20px !important;
+        font-size: 22px;
+        letter-spacing: 2px;
+    }
+
+    .hero-btn {
+        font-size: 8px;
+        margin-top: -6px;
+        margin-bottom: 20px;
+    }
+
+    .hero-truck {
+        height: 300px !important;
+        padding: 0px !important;
+    }
+
+    .whyus-section {
+        height: auto;
+        width: 100% !important;
+        text-align: center;
+
+    }
+
+    .text {
+        width: 100%;
+    }
+    .detail-section{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .detail-section{
+        position: relative;
+       margin-top: 2px;
+    }
+    .about-section-des{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+  .about-head {
+      text-align: center;
+    }
+    .about-subpara{
+        text-align: center;
+        padding: 20px;
+  }
+  .about-sub-content{
+    text-align: center;
+  }
+    .about-sub-image{
+        margin-left: -0px !important;
+    }
+    .our-services-section{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .home-contact-details{
+        background: rgb(2, 2, 36);
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .about-company{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .transport-mode{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .mode-image{
+        width: 400px;
+        height: auto;
+    }
+    #videoPlayer{
+        margin-left: 35px !important;
+        width: 300px !important;
+    }
+ .open-jobs{
+        /* width: 800px !important; */
+        display: flex !important;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    
+}
+
+@media screen and (max-width: 480px) {
+    .button1 {
+        margin-top: 20px;
+    }
+
+    .text-overlay {
+        font-size: medium;
+        width: 100%;
+
+    }
+    .about-sub-image{
+        margin-left: 0px !important;
+    }
+
+}
+@media screen and (max-width: 600px) {
+    form {
+        padding: 10px;
+    }
+    .data-des{
+        border-left: none !important;
+    }
+}
+a{
+    text-decoration: none !important;
+    font-weight: 500 !important;
+    color: white !important;
+}
+
+
+.mydetailimage{
+    animation: myimage infinite ease-in-out 2s;
+}
+@keyframes myimage{
+    50%{
+        transform: translateX(2%);
+    }
+}

@@ -1,0 +1,136 @@
+@media (max-width: 768px) {
+    .small-navbar {
+       display: none !important;
+    }
+    .navbar{
+        margin-top: 0px;
+        background: black !important;
+        padding: 12px;
+    }
+    .navbar-brand{
+        display: none;
+    }
+    .car-img {
+        height: 300px;
+    }
+
+    .content {
+        padding: 10px;
+       margin-top: -50px;
+       width: 100%;
+    }
+
+    .fade-text {
+        font-size: 12px !important;
+    }
+
+    .fade-up-text {
+        margin-top: -1px;
+        font-size: 22px;
+        letter-spacing: 2px;
+    }
+
+    .hero-btn {
+        font-size: 12px;
+        margin-top: -6px;
+        margin-bottom: 20px;
+    }
+
+    .hero-truck {
+        height: 300px !important;
+        padding: 0px !important;
+    }
+
+    .whyus-section {
+        height: auto;
+        width: 100% !important;
+        text-align: center;
+
+    }
+
+    .text {
+        width: 100%;
+    }
+    .detail-section{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .detail-section{
+        position: relative;
+       margin-top: 2px;
+    }
+    .about-section-des{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+  .about-head {
+      text-align: center;
+      padding: 12px;
+    }
+    .about-subpara{
+        text-align: center;
+        padding: 20px;
+  }
+  .about-sub-content{
+    text-align: center;
+  }
+    .about-sub-image{
+        margin-left: -0px !important;
+    }
+    .our-services-section{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .home-contact-details{
+        background: rgb(2, 2, 36);
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .about-company{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .transport-mode{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .mode-image{
+        width: 400px;
+        height: auto;
+    }
+    .clients{
+        display: inline;
+      
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .button1 {
+        margin-top: 20px;
+    }
+
+    .text-overlay {
+        font-size: medium;
+        width: 100%;
+
+    }
+    .about-sub-image{
+        margin-left: 0px !important;
+    }
+
+}
+@media screen and (max-width: 600px) {
+    form {
+        padding: 10px;
+    }
+    .data-des{
+        border-left: none !important;
+    }
+}
+a{
+    text-decoration: none !important;
+    font-weight: 500 !important;
+    color: white !important;
+    font-size: 16px !important;
+}
